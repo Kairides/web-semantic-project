@@ -1,0 +1,159 @@
+---------------------------------------------------------
+| countryHappy             | rank  | nbcata             |
+=========================================================
+| "Japan"                  | "51"  | "361"^^xsd:decimal |
+| "Indonesia"              | "81"  | "272"^^xsd:decimal |
+| "Greece"                 | "87"  | "167"^^xsd:decimal |
+| "Chile"                  | "20"  | "166"^^xsd:decimal |
+| "Italy"                  | "48"  | "156"^^xsd:decimal |
+| "Philippines"            | "72"  | "95"^^xsd:decimal  |
+| "Russia"                 | "49"  | "94"^^xsd:decimal  |
+| "Peru"                   | "63"  | "74"^^xsd:decimal  |
+| "Mexico"                 | "25"  | "61"^^xsd:decimal  |
+| "Turkey"                 | "69"  | "61"^^xsd:decimal  |
+| "Portugal"               | "89"  | "35"^^xsd:decimal  |
+| "China"                  | "79"  | "34"^^xsd:decimal  |
+| "Norway"                 | "1"   | "27"^^xsd:decimal  |
+| "Venezuela"              | "82"  | "27"^^xsd:decimal  |
+| "Canada"                 | "7"   | "26"^^xsd:decimal  |
+| "India"                  | "122" | "19"^^xsd:decimal  |
+| "Australia"              | "10"  | "17"^^xsd:decimal  |
+| "Croatia"                | "77"  | "14"^^xsd:decimal  |
+| "Algeria"                | "53"  | "13"^^xsd:decimal  |
+| "Spain"                  | "34"  | "13"^^xsd:decimal  |
+| "Albania"                | "109" | "12"^^xsd:decimal  |
+| "France"                 | "31"  | "11"^^xsd:decimal  |
+| "Haiti"                  | "145" | "11"^^xsd:decimal  |
+| "Jamaica"                | "76"  | "11"^^xsd:decimal  |
+| "Panama"                 | "30"  | "10"^^xsd:decimal  |
+| "Iceland"                | "3"   | "10"^^xsd:decimal  |
+| "Israel"                 | "11"  | "9"^^xsd:decimal   |
+| "Guatemala"              | "29"  | "9"^^xsd:decimal   |
+| "Ecuador"                | "44"  | "9"^^xsd:decimal   |
+| "Colombia"               | "36"  | "8"^^xsd:decimal   |
+| "Syria"                  | "152" | "8"^^xsd:decimal   |
+| "Ukraine"                | "132" | "7"^^xsd:decimal   |
+| "Honduras"               | "91"  | "6"^^xsd:decimal   |
+| "Nicaragua"              | "43"  | "6"^^xsd:decimal   |
+| "Bangladesh"             | "110" | "5"^^xsd:decimal   |
+| "Egypt"                  | "104" | "5"^^xsd:decimal   |
+| "Iran"                   | "108" | "5"^^xsd:decimal   |
+| "Bulgaria"               | "105" | "4"^^xsd:decimal   |
+| "Pakistan"               | "80"  | "4"^^xsd:decimal   |
+| "Ghana"                  | "131" | "3"^^xsd:decimal   |
+| "Lebanon"                | "88"  | "3"^^xsd:decimal   |
+| "Montenegro"             | "83"  | "3"^^xsd:decimal   |
+| "Sweden"                 | "9"   | "3"^^xsd:decimal   |
+| "Switzerland"            | "4"   | "3"^^xsd:decimal   |
+| "Togo"                   | "150" | "3"^^xsd:decimal   |
+| "Uruguay"                | "28"  | "3"^^xsd:decimal   |
+| "Cyprus"                 | "65"  | "2"^^xsd:decimal   |
+| "Georgia"                | "125" | "2"^^xsd:decimal   |
+| "Germany"                | "16"  | "2"^^xsd:decimal   |
+| "Jordan"                 | "74"  | "2"^^xsd:decimal   |
+| "Morocco"                | "84"  | "2"^^xsd:decimal   |
+| "Netherlands"            | "6"   | "2"^^xsd:decimal   |
+| "Tunisia"                | "102" | "2"^^xsd:decimal   |
+| "Vietnam"                | "94"  | "2"^^xsd:decimal   |
+| "Denmark"                | "2"   | "1"^^xsd:decimal   |
+| "Ireland"                | "15"  | "1"^^xsd:decimal   |
+| "Kenya"                  | "112" | "1"^^xsd:decimal   |
+| "Nepal"                  | "99"  | "1"^^xsd:decimal   |
+| "Sudan"                  | "130" | "1"^^xsd:decimal   |
+| "Turkmenistan"           | "59"  | "1"^^xsd:decimal   |
+| "Afghanistan"            | "141" |                    |
+| "Angola"                 | "140" |                    |
+| "Argentina"              | "24"  |                    |
+| "Armenia"                | "121" |                    |
+| "Austria"                | "13"  |                    |
+| "Azerbaijan"             | "85"  |                    |
+| "Bahrain"                | "41"  |                    |
+| "Belarus"                | "67"  |                    |
+| "Belgium"                | "17"  |                    |
+| "Belize"                 | "50"  |                    |
+| "Benin"                  | "143" |                    |
+| "Bhutan"                 | "97"  |                    |
+| "Bolivia"                | "58"  |                    |
+| "BosniaandHerzegovina"   | "90"  |                    |
+| "Botswana"               | "142" |                    |
+| "Brazil"                 | "22"  |                    |
+| "BurkinaFaso"            | "134" |                    |
+| "Burundi"                | "154" |                    |
+| "Cambodia"               | "129" |                    |
+| "Cameroon"               | "107" |                    |
+| "CentralAfricanRepublic" | "155" |                    |
+| "Chad"                   | "137" |                    |
+| "Congo(Brazzaville)"     | "124" |                    |
+| "Congo(Kinshasa)"        | "126" |                    |
+| "CostaRica"              | "12"  |                    |
+| "CzechRepublic"          | "23"  |                    |
+| "DominicanRepublic"      | "86"  |                    |
+| "ElSalvador"             | "45"  |                    |
+| "Estonia"                | "66"  |                    |
+| "Ethiopia"               | "119" |                    |
+| "Finland"                | "5"   |                    |
+| "Gabon"                  | "118" |                    |
+| "Guinea"                 | "149" |                    |
+| "HongKongS.A.R.,China"   | "71"  |                    |
+| "Hungary"                | "75"  |                    |
+| "Iraq"                   | "117" |                    |
+| "IvoryCoast"             | "128" |                    |
+| "Kazakhstan"             | "60"  |                    |
+| "Kosovo"                 | "78"  |                    |
+| "Kuwait"                 | "39"  |                    |
+| "Kyrgyzstan"             | "98"  |                    |
+| "Latvia"                 | "54"  |                    |
+| "Lesotho"                | "139" |                    |
+| "Liberia"                | "148" |                    |
+| "Libya"                  | "68"  |                    |
+| "Lithuania"              | "52"  |                    |
+| "Luxembourg"             | "18"  |                    |
+| "Macedonia"              | "92"  |                    |
+| "Madagascar"             | "144" |                    |
+| "Malawi"                 | "136" |                    |
+| "Malaysia"               | "42"  |                    |
+| "Mali"                   | "127" |                    |
+| "Malta"                  | "27"  |                    |
+| "Mauritania"             | "123" |                    |
+| "Mauritius"              | "64"  |                    |
+| "Moldova"                | "56"  |                    |
+| "Mongolia"               | "100" |                    |
+| "Mozambique"             | "113" |                    |
+| "Myanmar"                | "114" |                    |
+| "Namibia"                | "111" |                    |
+| "NewZealand"             | "8"   |                    |
+| "Niger"                  | "135" |                    |
+| "Nigeria"                | "95"  |                    |
+| "NorthCyprus"            | "61"  |                    |
+| "PalestinianTerritories" | "103" |                    |
+| "Paraguay"               | "70"  |                    |
+| "Poland"                 | "46"  |                    |
+| "Qatar"                  | "35"  |                    |
+| "Romania"                | "57"  |                    |
+| "Rwanda"                 | "151" |                    |
+| "SaudiArabia"            | "37"  |                    |
+| "Senegal"                | "115" |                    |
+| "Serbia"                 | "73"  |                    |
+| "SierraLeone"            | "106" |                    |
+| "Singapore"              | "26"  |                    |
+| "Slovakia"               | "40"  |                    |
+| "Slovenia"               | "62"  |                    |
+| "Somalia"                | "93"  |                    |
+| "SouthAfrica"            | "101" |                    |
+| "SouthKorea"             | "55"  |                    |
+| "SouthSudan"             | "147" |                    |
+| "SriLanka"               | "120" |                    |
+| "TaiwanProvinceofChina"  | "33"  |                    |
+| "Tajikistan"             | "96"  |                    |
+| "Tanzania"               | "153" |                    |
+| "Thailand"               | "32"  |                    |
+| "TrinidadandTobago"      | "38"  |                    |
+| "Uganda"                 | "133" |                    |
+| "UnitedArabEmirates"     | "21"  |                    |
+| "UnitedKingdom"          | "19"  |                    |
+| "UnitedStates"           | "14"  |                    |
+| "Uzbekistan"             | "47"  |                    |
+| "Yemen"                  | "146" |                    |
+| "Zambia"                 | "116" |                    |
+| "Zimbabwe"               | "138" |                    |
+---------------------------------------------------------

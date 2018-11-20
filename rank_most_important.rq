@@ -1,0 +1,50 @@
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX geo: <http://www.mindswap.org/2003/owl/geo/geoFeatures20040307.owl#>
+PREFIX head: <https://www.kaggle.com/unsdsn/world-happiness#>
+PREFIX rank: <http://dbpedia.org/ontology/rank#>
+PREFIX op: <http://environment.data.gov.au/def/op#>
+PREFIX dbo:  <http://dbpedia.org/ontology/>
+
+# Utiliser sparql --query rank_most_important.sparql >resuslts.txt
+# Pour un affichage plus espacé
+
+SELECT ?countryName ?Numero1 ?pourcent1 ?Numero2 ?pourcent2 ?Numero3 ?pourcent3
+FROM <file:happiness.ttl>
+WHERE {
+    ?country dbo:country ?countryName;
+             op:happinessScore ?score;
+             op:ecoGDPperCapita ?GDP;
+             op:family ?family;
+             op:healthlifeExpectancy ?lifeExp;
+# Labelling
+  BIND(IF(?GDP < ?family,
+    IF(?family < ?lifeExp, "Esperence de vie", "Famille"),
+    IF(?GDP < ?lifeExp, "Esperence de vie", "PIB")) AS ?Numero1).
+
+  BIND(IF(?GDP < ?family || ?family = ?GDP,
+      IF(?GDP < ?lifeExp && ?GDP != ?family, "Esperence de vie", "PIB"),
+      IF(?family < ?lifeExp, "Esperence de vie", "Famille")) AS ?Numero2).
+
+  BIND(IF(?GDP < ?family,
+      IF(?GDP < ?lifeExp, "PIB", "Esperence de vie"),
+      IF(?family < ?lifeExp, "Famille", "Esperence de vie")) AS ?Numero3).
+
+# Stockage des valeurs
+  BIND(IF(?GDP < ?family,
+      IF(?family < ?lifeExp, ?lifeExp, ?family),
+      IF(?GDP < ?lifeExp, ?lifeExp, ?GDP)) AS ?nb1).
+
+  BIND(IF(?GDP < ?family || ?family = ?GDP ,
+      IF(?GDP < ?lifeExp && ?GDP != ?family, ?lifeExp, ?GDP),
+      IF(?family < ?lifeExp, ?lifeExp, ?family)) AS ?nb2).
+
+  BIND(IF(?GDP < ?family,
+      IF(?GDP < ?lifeExp, ?GDP, ?lifeExp),
+      IF(?family < ?lifeExp, ?family, ?lifeExp)) AS ?nb3).
+
+# Calcul des pourcentages
+  BIND(xsd:decimal(?nb1)/xsd:decimal(?score)*100 AS ?pourcent1).
+  BIND(xsd:decimal(?nb2)/xsd:decimal(?score)*100 AS ?pourcent2).
+  BIND(xsd:decimal(?nb3)/xsd:decimal(?score)*100 AS ?pourcent3).
+  }
