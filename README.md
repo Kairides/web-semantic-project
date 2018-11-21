@@ -1,7 +1,7 @@
 # Projet Dana
 
-* [Etape 1](https://gitlab.com/RoxaneKM/projetdana/edit/master/README.md#etape-1) 
-* [Etape 2](https://gitlab.com/RoxaneKM/projetdana/edit/master/README.md#etape-2)
+* [Etape 1](https://github.com/RoxaneKM/projetdana/edit/master/README.md#etape-1) 
+* [Etape 2](https://github.com/RoxaneKM/projetdana/edit/master/README.md#etape-2)
 
 ## Consignes projet 
 * [Consignes](https://docs.google.com/document/d/1QL7D6zpCqcbWIOy2oitHO7SfcmTnf1Ps1ncrEOEwWZE/edit)
@@ -11,8 +11,8 @@
 * [Diapo hapinness report](https://docs.google.com/presentation/d/1xv-MBmoSdE04zFjmj5UKY_AnCqqhu3dZnK-nblnLPl4/edit)
 
 ## Dataset 
-* [Dataset format au format CVS](https://gitlab.com/RoxaneKM/projetdana/blob/master/2017.csv)
-* [Dataset au format ttl](https://gitlab.com/RoxaneKM/projetdana/blob/master/happiness.ttl)
+* [Dataset format au format CVS](https://github.com/RoxaneKM/projetdana/blob/master/2017.csv)
+* [Dataset au format ttl](https://github.com/RoxaneKM/projetdana/blob/master/happiness.ttl)
 * [Mapping sparql](https://gitlab.com/RoxaneKM/projetdana/blob/master/mapping.rq)
 
 ### Commande conversion
@@ -24,12 +24,12 @@
 ### Requêtes Sparql
 
 #### 1. Top 10 : Most happy countries
-* [Lien code](https://gitlab.com/RoxaneKM/projetdana/blob/master/rank_most_important.rq)
+* [Lien code](https://github.com/RoxaneKM/projetdana/blob/master/rank_most_important.rq)
 * Commande windows : `sparql.bat --query top10.rq >top10.txt`
 * Commande linux : `sparql --query top10.rq >top10.txt`
 
 #### 2. Rank most important
-* [Lien code](https://gitlab.com/RoxaneKM/projetdana/blob/master/top10.rq)
+* [Lien code](https://github.com/RoxaneKM/projetdana/blob/master/top10.rq)
 * Commande windows : `sparql.bat --query rank_most_important.rq >rank.txt`
 * Commande linux : `sparql --query rank_most_important.rq >rank.txt`
 
@@ -37,19 +37,19 @@
 
 ### Liaison avec d'autres datasets
 
-* Lien avec [dataset tsunamis](https://gitlab.com/RoxaneKM/projetdana/blob/master/tsunami.ttl)
-* Lien avec [dataset volcano](https://gitlab.com/RoxaneKM/projetdana/blob/master/volcano.ttl)
+* Lien avec [dataset tsunamis](https://github.com/RoxaneKM/projetdana/blob/master/tsunami.ttl)
+* Lien avec [dataset volcano](https://github.com/RoxaneKM/projetdana/blob/master/volcano.ttl)
 
 ### Requêtes liant les 3 datasets
 
 #### Le rang des pays ayant eu des tsunamis ou des volcanos
 
-* [Lien code](https://gitlab.com/RoxaneKM/projetdana/blob/master/catahappiness.rq)
+* [Lien code](https://github.com/RoxaneKM/projetdana/blob/master/catahappiness.rq)
 * Command windows : `sparql.bat --query catahappiness.rq >catahappiness.txt` 
 * Command linux : `sparql --query catahappiness.rq >catahappiness.txt` 
 
 #### Le rang des pays ayant eu des tsunamis ou des volcanos en 2017
-* [Lien code](https://gitlab.com/RoxaneKM/projetdana/blob/master/catahappiness2017.rq)
+* [Lien code](https://github.com/RoxaneKM/projetdana/blob/master/catahappiness2017.rq)
 * Command windows : `sparql.bat --query catahappiness2017.rq >catahappiness2017.txt` 
 * Command linux : `sparql --query catahappiness2017.rq >catahappiness2017.txt` 
  
