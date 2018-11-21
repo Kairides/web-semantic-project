@@ -1,4 +1,6 @@
-# Projet Dana
+# Web semantic project
+
+This project is part of our 'Web Semantic' module. 
 
 * [Etape 1](https://github.com/RoxaneKM/web-semantic-project/edit/master/README.md#etape-1) 
 * [Etape 2](https://github.com/RoxaneKM/web-semantic-project/edit/master/README.md#etape-2)
@@ -11,11 +13,19 @@
 * [Diapo hapinness report](https://docs.google.com/presentation/d/1xv-MBmoSdE04zFjmj5UKY_AnCqqhu3dZnK-nblnLPl4/edit)
 
 ## Dataset 
+* Source du dataset : [https://www.kaggle.com/unsdsn/world-happiness](https://www.kaggle.com/unsdsn/world-happiness)
+
+### *NEW UPDATE* : Années 2015, 2016 et 2017
+* [Dataset format au format CVS](https://github.com/RoxaneKM/web-semantic-project/blob/master/happiness.csv)
+* [Dataset au format ttl](https://github.com/RoxaneKM/web-semantic-project/blob/master/happiness2.ttl)
+* [Mapping sparql](https://gitlab.com/RoxaneKM/web-semantic-project/blob/master/mapping2.rq)
+
+### Année 2017 (uniquement)
 * [Dataset format au format CVS](https://github.com/RoxaneKM/web-semantic-project/blob/master/2017.csv)
 * [Dataset au format ttl](https://github.com/RoxaneKM/web-semantic-project/blob/master/happiness.ttl)
 * [Mapping sparql](https://gitlab.com/RoxaneKM/web-semantic-project/blob/master/mapping.rq)
 
-### Commande conversion
+### Commande conversion (windows)
 * Commande linux : `tarql mapping.rq >happiness.ttl`
 * Pour convertir en utf-8 (si besoin): `Get-Content .\rdf.ttl | Set-Content -Encoding utf8 rdf-utf8.ttl`
 
