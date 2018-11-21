@@ -2,8 +2,8 @@
 
 This project is part of our 'Web Semantic' module. 
 
-* [Etape 1](https://github.com/RoxaneKM/web-semantic-project/edit/master/README.md#etape-1) 
-* [Etape 2](https://github.com/RoxaneKM/web-semantic-project/edit/master/README.md#etape-2)
+* [Etape 1](https://github.com/RoxaneKM/web-semantic-project/blob/master/README.md#etape-1) 
+* [Etape 2](hhttps://github.com/RoxaneKM/web-semantic-project/blob/master/README.md#etape-2)
 
 ## Consignes projet 
 * [Consignes](https://docs.google.com/document/d/1QL7D6zpCqcbWIOy2oitHO7SfcmTnf1Ps1ncrEOEwWZE/edit)
